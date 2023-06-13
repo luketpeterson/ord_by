@@ -5,10 +5,6 @@ Conveniently attach a custom compare function to any type, to get
 
 OrdBy is a generalization of the pattern used by [Reverse].
 
-Conveniently attach a custom compare function to any type, to get
-[sort_by](https://doc.rust-lang.org/std/vec/struct.Vec.html#method.sort_by) type behavior from types like [BinaryHeap](https://doc.rust-lang.org/std/collections/struct.BinaryHeap.html)
-
-
 ```rust
 use std::collections::BinaryHeap;
 use ord_by::*;
