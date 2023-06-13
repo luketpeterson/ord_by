@@ -7,7 +7,7 @@ license = "MIT OR Apache-2.0"
 description = "Conveniently attach a custom compare function to any type"
 repository = "https://github.com/luketpeterson/ord_by/"
 readme = "README.md"
-keywords = ["Ord", "Sort", "Compare", "compare_with", "sort_by", "no_std", ]
+keywords = ["Ord", "Sort", "Compare", "sort_by", "no_std", ]
 categories = ["Rust patterns", "Algorithms", "Data structures", "No standard library"]
 
 [dependencies]
