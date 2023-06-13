@@ -1,0 +1,13 @@
+[package]
+name = "ord_by"
+version = "0.1.0"
+edition = "2021"
+authors = ["Luke Peterson <luke@infoplatter.com>"]
+license = "MIT OR Apache-2.0"
+description = "Conveniently attach a custom compare function to any type"
+repository = "https://github.com/luketpeterson/ord_by/"
+readme = "README.md"
+keywords = ["Ord", "Sort", "Compare", "compare with"]
+categories = ["Rust patterns", "Algorithms", "Data structures", "No standard library"]
+
+[dependencies]
