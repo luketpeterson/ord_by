@@ -1,9 +1,10 @@
 
 #![doc = include_str!("../README.md")]
 
-#![cfg_attr(not(doc), no_std)]
+#![no_std]
 
-// #![no_std]
+#[cfg(doc)]
+extern crate std;
 
 use core::ops::Deref;
 use core::cmp::*;
